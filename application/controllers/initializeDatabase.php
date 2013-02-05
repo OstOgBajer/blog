@@ -19,8 +19,11 @@ class InitializeDatabase extends CI_Controller {
    */
   public function index()
   {
+    $this->load->model('InitializeDatabaseModel');
 
-    $data = array("blogTableExists" => false);
+    $this->InitializeDatabaseModel->createPostsTable();
+
+    $data = array("dbTestExists" => "");
 
     $this->load->view('initializeDatabase', $data);
   }

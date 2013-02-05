@@ -8,7 +8,7 @@
 
 <h1>Initialize Database</h1>
 
-<p><b>Blog Table Exists:</b> <?php echo $blogTableExists ?></p>
+<p><b>Test Database Exists:</b> <pre><?php print_r($dbTestExists) ?></pre></p>
 
 </body>
 </html>
