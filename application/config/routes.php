@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "initialize_database";
+$route['default_controller'] = "initializeDatabase";
 $route['404_override'] = '';
 
 
